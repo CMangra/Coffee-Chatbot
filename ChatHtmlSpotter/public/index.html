@@ -1,0 +1,65 @@
+<!--
+	Name of author: Chaitanya Mangra
+	Immatriculation number: 22105964
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="css/chat.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header msg_head">
+				<div class="d-flex bd-highlight">
+					<div class="img_cont">
+						<img src="https://media-cdn.tripadvisor.com/media/photo-s/12/ec/5c/e7/el-barista-coffee-shop.jpg"
+							class="rounded-circle user_img">
+						<span class="online_icon"></span>
+					</div>
+					<div class="user_info">
+						<span>Chat with Barista</span>
+					</div>
+				</div>
+			</div>
+			<div class="card-body msg_card_body" id="message_box">
+				<div class="d-flex justify-content-start mb-4" id="messagebutton">
+					<div class="_msg">
+						<img src="https://media-cdn.tripadvisor.com/media/photo-s/12/ec/5c/e7/el-barista-coffee-shop.jpg"
+							class="rounded-circle user_img_msg">
+					</div>
+					<div class="msg_cotainer">
+						Hello, I am here to help you to create the perfect coffee☕. Let's start with the type of
+						grain:<br>Arabica or Robusta?<br><a id="coffee_difference"
+							onclick='coffeeGrainDiffference()'><i>What is the difference between Arabica and
+								Robusta?</i></a>
+					</div>
+				</div>
+			</div>
+			<div class="card-footer">
+				<div class="input-group">
+					<input name="" class="form-control type_msg" placeholder="Type your message..."
+						id="input_text_area"> </input>
+					<div class="input-group-append">
+						<span class="input-group-text send_btn" id="send_btn"><i
+								class="fas fa-location-arrow"></i></span>
+					</div>
+
+				</div>
+			</div>
+			<script src="./js/script.js"></script>
+		</div>
+	</div>
+
+</body>
+
+</html>

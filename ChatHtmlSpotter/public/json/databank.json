@@ -1,0 +1,101 @@
+{ 
+  "greetings" :[
+    {"intent":"hi", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."},
+    {"intent":"hello", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."},
+    {"intent":"hii", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."},
+    {"intent":"hiii", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."},
+    {"intent":"what's up", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."},
+    {"intent":"hallo", "answer":"Hello, please choose a grain type so that I can help you to make your coffee."}
+  ],
+  
+  "grain" :[
+    {"intent":"arabica", "answer":"Okay, arabica it is! Do you want a hot coffee drink or a cold coffee drink?"},
+    {"intent":"robusta", "answer":"Okay, robusta it is! Do you want a hot coffee drink or a cold coffee drink?"}
+  ],
+
+  "temperature" :[
+    {"intent":"cold", "answer":"What’s more refreshing than cool iced coffee in the summertime? Or maybe you enjoy these chilled drinks all year long. (We do!) Here are some of the best iced coffee drinks you can sip on:<br><img src='resources/Types-of-iced-Coffee.jpg'><br>Please pick one!"},
+    {"intent":"hot", "answer":"Latte, americano, affogato…it’s crazy all that you can do with a few small beans. Whether you’re a coffee newbie or you consider yourself a coffee connoisseur, there are so many types of coffee drinks to discover. Here are some of the most popular types ordered by coffee lovers nationwide:<br><img src='resources/Types-of-Coffee-Drinks.jpg'><script type='text/javascript'>coffeeGrainDiffference()</script><br>Please pick one!"}
+  ],
+  
+  "coldCoffee" :[
+     {"intent":"iced coffee", "answer":"Ohh nice choice. A coffee with ice, typically served with a dash of milk, cream or sweetener—iced coffee is really as simple as that.<br><br>Last option, do you want sugar in your coffee?"},
+     {"intent":"iced espresso", "answer":"Excellent choice. Like an iced coffee, iced espresso can be served straight or with a dash of milk, cream or sweetener. You can also ice speciality espresso-based drinks like americanos, mochas, macchiatos, lattes and flat whites.<br><br>Last option, do you want sugar in your coffee?"},
+     {"intent":"cold brew", "answer":"Not bad! The trendiest of the iced coffee bunch, cold brew coffees are made by steeping coffee beans from anywhere between 6-36 hours, depending on how strong you would like your cold brew. Once the beans are done steeping, add cold milk or cream.<br><br>Last option, do you want sugar in your coffee?"},
+     {"intent":"frappuccino", "answer":"This is one of a good choice. Made famous by Starbucks, the Frappuccino is a blended iced coffee drink that’s topped with whipped cream and syrup.<br><br>Last option, do you want sugar in your coffee?"},
+     {"intent":"nitro", "answer":"Nice choice!! A cold brew + nitrogen bubbles = a cold brew coffee with a frothy, Guinness-like consistency. (It’s poured via a nitro tap, too.)<br><br>Last option, do you want sugar in your coffee?"},
+     {"intent":"mazagran", "answer":"Maza-who?! Mazagran coffee is a cross between iced coffee, tea and your favorite rum drink. It typically consists of espresso, lemon, sugar and (sometimes) rum. Nice choice!!<br><br>Last option, do you want sugar in your coffee?"}
+  ],
+
+  "hotCoffee" :[
+    {"intent":"black", "answer":"Nice choice! Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir. Since it isn’t doctored up with milk or sugar, the quality of coffee is especially important.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"latte", "answer":"Excellent choice! As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"cappuccino", "answer":"Good choice. Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"americano", "answer":"Ohh this one is nice. With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water. Pro tip: if you’re making your own, pour the espresso first, then add the hot water.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"espresso", "answer":"Great choice. An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"doppio", "answer":"This is a good one. A double shot of espresso, the doppio is perfect for putting extra pep in your step.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"cortado", "answer":"Like yin and yang, a cortado is the perfect balance of espresso and warm steamed milk. The milk is used to cut back on the espresso’s acidity. Good choice!<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"red eye", "answer":"Excellent choice. Named after those pesky midnight flights, a red eye can cure any tiresome morning. A full cup of hot coffee with an espresso shot mixed in, this will definitely get your heart racing.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"galão", "answer":"That's a good one! Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"galao", "answer":"That's a good one! Originating in Portugal, this hot coffee drink is closely related to the latte and cappuccino. Only difference is it contains about twice as much foamed milk, making it a lighter drink compared to the other two.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"lungo", "answer":"That's a good one! A lungo is a long-pull espresso. The longer the pull, the more caffeine there is and the more ounces you can enjoy.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"macchiato", "answer":"Great one! The macchiato is another espresso-based drink that has a small amount of foam on top. It’s the happy medium between a cappuccino and a doppio.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"mocha", "answer":"That's a good one! For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"ristretto", "answer":"Great one! Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"flat white", "answer":"Excellent choice. This Aussie-born drink is basically a cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"affogato", "answer":"Good choice! The affogato is an excuse to enjoy a scoop of ice cream any time of day (and any time of year in my opinion). Served with a scoop of ice cream and a shot of espresso, or two. The affogato is extra delish served over a brownie.<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"café au lait", "answer":"Nice choice! Café au lait is perfect for the coffee minimalist who wants a bit more flavor. Just add a splash of warm milk to your coffee and you’re all set!<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"cafe au lait", "answer":"Nice choice! Café au lait is perfect for the coffee minimalist who wants a bit more flavor. Just add a splash of warm milk to your coffee and you’re all set!<br><br>Last option, do you want sugar in your coffee?"},
+    {"intent":"irish", "answer":"Nice choice! Irish coffee consists of black coffee, whiskey and sugar, topped with whipped cream.<br><br>Last option, do you want sugar in your coffee?"}
+  ],
+
+  "yes" :[
+    {"intent":"yes"},
+    {"intent":"yup"},
+    {"intent":"ja"},
+    {"intent":"ya"},
+    {"intent":"yess"},
+    {"intent":"jup"},
+    {"intent":"yess"}
+  ],
+
+  "no" :[
+    {"intent":"no"},
+    {"intent":"nope"},
+    {"intent":"nein"},
+    {"intent":"ne"},
+    {"intent":"non"},
+    {"intent":"noo"}
+  ],
+
+  "falseAnswerGrainType" :[
+    {"answer":"Oops I did not understand that. Please choose between arabica and robusta or click on the blue text above to see the difference between them."},
+    {"answer":"Euhh, it seems that I have not yet been programmed to understand this. Can you please choose between arabica and robusta?"},
+    {"answer":"I am really sorry, we don't have any other coffee grain types than arabica and robusta. Please choose again."},
+    {"answer":"Hehe wrong answer, please choose between arabica and robusta."},
+    {"answer":"Just type 'arabica' or 'robusta' in the message box!"}
+
+  ],
+
+  "falseAnswerSecondQuestion" :[
+    {"answer":"I did not really get that one. You chose {{graintype}} as a grain type! Please choose between hot or cold."},
+    {"answer":"Hmm, please enter hot or cold. You chose {{graintype}} as a grain type so far."},
+    {"answer":"Okay please be kind to help me out and choose hot or cold. You chose {{graintype}} as a grain type so far."},
+    {"answer":"Could you please be more precise? You chose {{graintype}} as a grain type! Please choose between hot or cold."}
+  ],
+
+  "falseAnswerThirdQuestion" :[
+    {"answer":"Sorry, can you please reformulate the answer? So far you chose {{graintype}} as a grain type and you went for a {{coffeeTemperature}} coffee! Please choose a coffee from the menu."},
+    {"answer":"Oops I think I might have misunderstood that. Can you please reformulate the answer? So far you chose {{graintype}} as a grain type and you went for a {{coffeeTemperature}} coffee! Please choose a coffee from the menu."},
+    {"answer":"Euhh I did not really understand you. Can you please type in your answer again? Please choose a coffee from the menu. So far you chose {{graintype}} as a grain type and you went for a {{coffeeTemperature}} coffee!"},
+    {"answer":"Sorry, can you please reformulate the answer? So far you chose {{graintype}} as a grain type and you went for a {{coffeeTemperature}} coffee!"}
+  ],
+
+  "falseAnswerFourthQuestion" :[
+    {"answer":"Please help me out on this one! I did not understand. Do you want sugar in your coffee? Please choose between yes or no. You have so far chosen the {{graintype}} grain type and a {{coffeetype}}."},
+    {"answer":"I might have misunderstood your answer. Do you want sugar in your coffee? Please choose between yes or no. You have so far chosen the {{graintype}} grain type and a {{coffeeTemperature}} {{coffeetype}}."},
+    {"answer":"Okay this is the last question please bare with me. Do you want sugar in your coffee? Please choose between yes or no. You have so far chosen the {{graintype}} grain type and a {{coffeeTemperature}} {{coffeetype}}."},
+    {"answer":"Excuse me, I did not understand. Do you want sugar in your coffee? Please choose between yes or no. You have so far chosen the {{graintype}} grain type and a {{coffeeTemperature}} {{coffeetype}}."}
+  ]
+}
+
